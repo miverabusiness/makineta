@@ -55,6 +55,19 @@ a:hover {
 }
 
 .home {
-  padding: 1rem 4rem 0rem 4rem;
+  padding: 1rem 5rem 0rem 5rem;
   margin-top: 3rem;
+}
+
+.home h1 {
+  font-size: 70px !important;
+  font-weight: bold !important;
+  font-family: 'Syncopate', 'sans-serif' !important;
+}
+
+.home h2 {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  font-family: 'Syncopate', 'sans-serif' !important;
+  color: var(--text-hover);
 }

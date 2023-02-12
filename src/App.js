@@ -30,6 +30,9 @@ function App() {
 
       <div className="home">
         <h1>MAKINETA FC</h1>
+        <h2>CLUBS PRO FIFA 23</h2>
+        <br /><br /><br />
+        <p><i>Under development . . .</i></p>
       </div>
     </div>
   );

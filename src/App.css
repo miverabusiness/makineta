@@ -13,7 +13,6 @@ body {
   min-width: fit-content !important;
   background-image: url('/public/makineta-bg.jpg') !important;
   background-repeat: repeat-y !important;
-  height: 500vh;
 }
 
 a {
@@ -60,13 +59,13 @@ a:hover {
 }
 
 .home h1 {
-  font-size: 70px !important;
+  font-size: xx-large !important;
   font-weight: bold !important;
   font-family: 'Syncopate', 'sans-serif' !important;
 }
 
 .home h2 {
-  font-size: 20px !important;
+  font-size: medium !important;
   font-weight: bold !important;
   font-family: 'Syncopate', 'sans-serif' !important;
   color: var(--text-hover);

@@ -7,9 +7,16 @@ function App() {
     <div className="App">
       <div className="header">
         <Navbar variant='dark' sticky='top' expand='lg' collapseOnSelect>
-          <Navbar.Brand><a href='/' className='navbar-logo'>MAKINETA FC</a></Navbar.Brand>
+          <Navbar.Brand>
+            <a href='/' className='navbar-logo'>
+              <div className="row">
+                <div className="col"><Image src='/escudo.png' height='100px'/></div>
+                <div className="col logo-text d-none d-md-block">MAKINETA FC</div>
+              </div>
+            </a>
+          </Navbar.Brand>
           
-          <Navbar.Toggle />
+          <Navbar.Toggle size='sm'/>
           <Navbar.Collapse className='justify-content-end'>
             <Nav>
               <Nav.Link hfer='/'>HOME</Nav.Link>
@@ -22,7 +29,7 @@ function App() {
       </div>
 
       <div className="home">
-        Texto de prueba
+        <h1>MAKINETA FC</h1>
       </div>
     </div>
   );

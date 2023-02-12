@@ -5,13 +5,15 @@
 }
 
 * {
-   background-color: var(--bg-color);
    color: var(--text-color);
    font-family: 'Poppins', 'sans-serif';
 }
 
 body {
   min-width: fit-content !important;
+  background-image: url('/public/makineta-bg.jpg') !important;
+  background-repeat: repeat-y !important;
+  height: 500vh;
 }
 
 a {
@@ -28,10 +30,18 @@ a:hover {
   margin: 1rem 4rem;
 }
 
-.navbar-logo {
-  font-size: large;
+.logo-text{
+  position: relative;
+  margin-top: 36px !important;
+  margin-left: -25px !important;
+  font-size: 20px !important;
   font-weight: bold;
   font-family: 'Syncopate', 'sans-serif' !important;
+  transition: 0.2s;
+}
+
+.logo-text:hover {
+  color: var(--text-hover);
 }
 
 .nav-link {

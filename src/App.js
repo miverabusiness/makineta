@@ -21,7 +21,7 @@ function App() {
             <Nav>
               <Nav.Link hfer='/'>HOME</Nav.Link>
               <Nav.Link hfer='#'>SQUAD</Nav.Link>
-              <Nav.Link hfer='#'>CONTACT</Nav.Link>
+              <Nav.Link hfer='#'>SOCIAL MEDIA</Nav.Link>
             </Nav>
           </Navbar.Collapse>
 
@@ -30,9 +30,23 @@ function App() {
 
       <div className="home">
         <h1>MAKINETA FC</h1>
-        <h2>CLUBS PRO FIFA 23</h2>
-        <br /><br /><br />
-        <p><i>Under development . . .</i></p>
+        <h2 className="subtitle">PRO CLUBS FIFA 23</h2>
+        <a href="https://twitch.tv/makinetafc" className="btn btn-danger home-btn" target="_blank" rel="noreferrer">Watch Now</a>
+        <div className="paragraph">
+          <p>The official website of <i>Makineta FC</i>, the e-sports club focused on <i>FIFA 23 PRO CLUBS</i> in which several Inazuma Eleven content creators in Spanish embody the players in the VFO 1st division.</p>
+          <p>All of our matches can be enjoyed in our official Twitch Channel </p>
+        </div>
+
+        <div className="squad">
+        <h2>SQUAD</h2>
+
+      </div>
+      </div>
+
+
+
+      <div className="footer">
+        <p>miverabusiness@gmail.com - ©2023 MakinetaFC</p> 
       </div>
     </div>
   );

@@ -54,7 +54,7 @@ a:hover {
 }
 
 .home {
-  padding: 1rem 5rem 0rem 5rem;
+  padding: 1rem 7.5rem 0rem 5rem;
   margin-top: 3rem;
 }
 
@@ -65,8 +65,48 @@ a:hover {
 }
 
 .home h2 {
-  font-size: medium !important;
+  font-size: large !important;
   font-weight: bold !important;
   font-family: 'Syncopate', 'sans-serif' !important;
   color: var(--text-hover);
+}
+
+.home h3 {
+  font-size: medium !important;
+  font-weight: bold !important;
+  font-family: 'Syncopate', 'sans-serif' !important;
+}
+
+.home p {
+  font-size: medium !important;
+  text-align: justify;
+}
+
+.home-btn {
+  width: 210px !important;
+  background-color: var(--text-hover) !important;
+  margin-bottom: 5rem;
+}
+
+.home-btn:hover {
+  color: var(--bg-color) !important;
+}
+
+.subtitle {
+  margin-bottom: 2rem !important;
+}
+
+.paragraph {
+  margin-bottom: 8rem;
+}
+
+
+
+/*   FOOTER   */
+.footer {
+  background-color: var(--text-hover) !important;
+  height: 2.5rem;
+  padding-top: 0.6rem !important;
+  text-align: center !important;
+  font-size: small !important;
 }

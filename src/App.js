@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, Image } from 'react-bootstrap';
+import Player from './components/Player.js';
 
 function App() {
   return (
@@ -38,9 +39,38 @@ function App() {
         </div>
 
         <div className="squad">
-        <h2>SQUAD</h2>
+          <h2>SQUAD</h2>
+          <br />
 
-      </div>
+          <div className="players">
+          <Player num="3" name="ANLORIZ" pos="GK"/>
+          <Player num="88" name="PANA" pos="GK"/>
+          <br />
+          <Player num="26" name="AXELRIDER" pos="LI"/>
+          <br />
+          <Player num="4" name="DESPASIOMAIK" pos="DFC"/>
+          <Player num="6" name="JORDIBLAZE" pos="DFC"/>
+          <Player num="17" name="PABLITINHO" pos="DFC"/>
+          <br />
+          <Player num="8" name="ADRIÁN DE BOLSILLO" pos="LD"/>
+          <Player num="42" name="OVY" pos="LD"/>
+          <br />
+          <Player num="21" name="SHARKPEZ" pos="MCD"/>
+          <br />
+          <Player num="14" name="RUKO" pos="MC"/>
+          <br />
+          <Player num="11" name="ANDRESSINHO" pos="EI"/>
+          <Player num="19" name="HUMOS" pos="EI"/>
+          <br />
+          <Player num="7" name="RAYPOL" pos="DC"/>
+          <Player num="10" name="KAPPANATION" pos="DC"/>
+          <br />
+          <Player num="9" name="UNAIIBLAZE" pos="ED"/>
+          <Player num="24" name="DRAKOR" pos="ED"/>
+          </div>
+
+          
+        </div>
       </div>
 
 
